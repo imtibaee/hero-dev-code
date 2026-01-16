@@ -25,12 +25,34 @@ font-size: 35px;
 font-weight: bold;
 color: #181818;
 margin-bottom: 30px;
+/* margin-top: 30px; */
 }
 .heading p{
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
     line-height: 30px;
+}
+.education-box h2{
+   font-size: 30px;
+   color: #474747;
+}
+.education h3{
+   font-size: 25px;
+   color: #474747;
+   margin-bottom: 10px;
+   margin-top: 30px;
+}
+.education .institute{
+   font-size: 20px;
+   font-weight: 600;
+   color: #757575;
+   margin-bottom: 20px;
+}
+.education .resume-text{
+   font-size: 16px;
+   color: #757575;
+   margin-bottom: 30px;
 }
 
 
@@ -138,7 +160,7 @@ nav{
  .skill-card{
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px 30px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
  }
  .skill-card img{
     margin-bottom: 30px;
@@ -154,3 +176,62 @@ nav{
         line-height: 28px;
         font-size: 16px;
     }
+    #resume{
+        width: 71%;
+        max-width: 1140px;
+        margin: 134px auto 0px;
+    }
+    #resume .heading h2{
+        align-items: center;
+        text-align: center;
+    }
+    .resume-box{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 150px;
+        margin-top: 113px;
+    }
+    .middle-btn{
+     text-align: center;
+     margin-top: 30px;
+    }
+    footer{
+      margin-top: 113px;
+      padding: 122px 236px 139px 223px ;
+      width: 100%;
+      background-color: #FFF8F3;
+    }
+    .footer-box{
+      display: flex;
+      /* justify-content: space-between; */
+      gap: 140px;
+    }
+    .footer-box h2{
+      font-size: 35px;
+      font-weight: bold;
+      color: #181818;
+      margin-bottom: 20px;
+    }
+    .social{
+      max-width: 562px;
+    }
+    .social p{
+      color: #474747;
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 30px;
+    }
+    .social .icon a{
+      margin-right: 24px;
+    }
+    .footer-box form input[type="text"],
+    .footer-box form textarea {
+      width: 461px;
+      padding: 18px 31px;
+      margin-bottom: 24px;
+      border: none;
+      border-radius: 5px;
+      color: #757575;
+
+    }
+
